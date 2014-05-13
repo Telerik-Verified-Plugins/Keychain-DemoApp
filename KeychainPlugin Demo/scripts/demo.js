@@ -10,19 +10,19 @@
 
         setValue: function () {
             if (this.isIOSDevice()) {
-                new window.Keychain().setForKey(this.onSuccess, this.onError, key, service, value);
+                new Keychain().setForKey(this.onSuccess, this.onError, key, service, value);
             }
         },
 
         getValue: function () {
             if (this.isIOSDevice()) {
-                new window.Keychain().getForKey(this.onSuccess, this.onError, key, service);
+                new Keychain().getForKey(this.onSuccess, this.onError, key, service);
             }
         },
         
         removeValue: function () {
             if (this.isIOSDevice()) {
-                new window.Keychain().removeForKey(this.onSuccess, this.onError, key, service);
+                new Keychain().removeForKey(this.onSuccess, this.onError, key, service);
             }
         },
         

@@ -40,11 +40,11 @@
 
         // callbacks
         onSuccess: function(msg) {
-            navigator.notification.alert(JSON.stringify(msg), {}, 'Success callback', 'Close');
+            navigator.notification.alert(JSON.stringify(msg), null, 'Success callback', 'Close');
         },
 
         onError: function(msg) {
-            navigator.notification.alert(JSON.stringify(msg), {}, 'Error callback', 'Close');
+            navigator.notification.alert(JSON.stringify(msg), null, 'Error callback', 'Close');
         }
     });
 

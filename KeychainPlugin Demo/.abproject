@@ -4,7 +4,7 @@
   "AppIdentifier": "com.telerik.plugindemo.keychain",
   "ProjectName": "KeychainPlugin Demo",
   "IsRunnable": "true",
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "AndroidPermissions": [
     "android.permission.CAMERA",
     "android.permission.VIBRATE",
@@ -48,5 +48,8 @@
   "DisplayName": "Keychain plugin demo",
   "Description": "KeychainPlugin Demo",
   "Author": "Telerik",
-  "Framework": "Cordova"
+  "Framework": "Cordova",
+  "projectVersion": "1",
+  "WP8PublisherID": "{b02984a7-8afb-40cc-84bd-e6f174a0ab29}",
+  "WP8ProductID": "{19a93b0c-b746-41f4-a1ff-30f45da93d8e}"
 }

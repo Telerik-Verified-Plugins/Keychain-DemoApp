@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.shazron.cordova.plugin.keychainutil"
-    version="1.0.0">
+    version="2.0.0">
 
     <name>KeyChain Plugin for Cordova iOS</name>
     <description>This plugin allows your app access to the iOS KeyChain from Cordova. See: https://developer.apple.com/library/mac/documentation/security/conceptual/keychainServConcepts/iPhoneTasks/iPhoneTasks.html</description>
@@ -31,7 +31,7 @@
         <header-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.h"/>
         
         <source-file src="src/ios/CDVKeychain.m"/>
-        <source-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.m" compiler-flags="-fno-objc-arc" />
+        <source-file src="src/ios/SFHFKeychainUtils/SFHFKeychainUtils.m" compiler-flags="-fobjc-arc" />
         
         <framework src="Security.framework" />
         
